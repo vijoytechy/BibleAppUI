@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 320px){
+    body{
+      width:100%;
+      margin:15px auto;
+    }
+  
+    header#page-header nav ul li {
+      display: block;
+    }
+  
+    section#main-section, section#rightnav-section {
+      width: 94%;
+      margin: 2%;
+    }
+  
+    section#main-section article aside {
+      display: block;
+      width: 100%;
+    }
+  }
+  
